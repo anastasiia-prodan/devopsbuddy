@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8571c035-bb36-4b32-aafe-407b4d724b41" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/styles.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/common/header.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/common/navbar.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/devopsbuddy.iml" beforeDir="false" afterPath="$PROJECT_DIR$/devopsbuddy.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/templates/Index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/Index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -14,8 +16,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
         <option value="Class" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -84,6 +86,7 @@
       <workItem from="1580798508787" duration="341000" />
       <workItem from="1580799210812" duration="451000" />
       <workItem from="1580799932308" duration="2859000" />
+      <workItem from="1580928092117" duration="1298000" />
     </task>
     <task id="LOCAL-00001" summary="Added files to .">
       <created>1580274169342</created>
@@ -171,10 +174,10 @@
       <screen x="62" y="0" width="1304" height="768" />
     </state>
     <state x="306" y="118" key="Vcs.Push.Dialog.v2/62.0.1304.768@62.0.1304.768" timestamp="1580274421622" />
-    <state x="415" y="209" key="com.intellij.ide.util.TipDialog" timestamp="1580799933979">
+    <state x="415" y="209" key="com.intellij.ide.util.TipDialog" timestamp="1580928115274">
       <screen x="62" y="0" width="1304" height="768" />
     </state>
-    <state x="415" y="209" key="com.intellij.ide.util.TipDialog/62.0.1304.768@62.0.1304.768" timestamp="1580799933979" />
+    <state x="415" y="209" key="com.intellij.ide.util.TipDialog/62.0.1304.768@62.0.1304.768" timestamp="1580928115274" />
     <state x="457" y="98" key="git4idea.branch.GitSmartOperationDialog" timestamp="1580884579981">
       <screen x="62" y="0" width="1304" height="768" />
     </state>
