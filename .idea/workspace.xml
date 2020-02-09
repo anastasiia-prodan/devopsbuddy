@@ -2,11 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8571c035-bb36-4b32-aafe-407b4d724b41" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/common/header.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/common/navbar.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/devopsbuddy/config/I18NConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/devopsbuddy/web/i18n/I18NService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/i18n/messages.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/devopsbuddy/DevopsbuddyApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/devopsbuddy.iml" beforeDir="false" afterPath="$PROJECT_DIR$/devopsbuddy.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/templates/Index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/Index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/Index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/Index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,8 +19,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="HTML File" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -53,15 +56,35 @@
     <property name="ExpandSpringBootJavaOptionsPanel" value="true" />
     <property name="RequestMappingsPanelOrder0" value="0" />
     <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelOrder2" value="2" />
     <property name="RequestMappingsPanelWidth0" value="75" />
     <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RequestMappingsPanelWidth2" value="75" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="add_unversioned_files" value="true" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.DevopsbuddyApplicationTests">
+    <configuration name="DevopsbuddyApplicationTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="devopsbuddy" />
+      <shortenClasspath name="CLASSPATH_FILE" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.devopsbuddy.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.devopsbuddy" />
+      <option name="MAIN_CLASS_NAME" value="com.devopsbuddy.DevopsbuddyApplicationTests" />
+      <option name="METHOD_NAME" value="" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="PARAMETERS" value="" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="DevopsbuddyApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="devopsbuddy" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.devopsbuddy.DevopsbuddyApplication" />
@@ -71,6 +94,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.DevopsbuddyApplicationTests" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -86,7 +114,8 @@
       <workItem from="1580798508787" duration="341000" />
       <workItem from="1580799210812" duration="451000" />
       <workItem from="1580799932308" duration="2859000" />
-      <workItem from="1580928092117" duration="1298000" />
+      <workItem from="1580928092117" duration="1922000" />
+      <workItem from="1581252726323" duration="2921000" />
     </task>
     <task id="LOCAL-00001" summary="Added files to .">
       <created>1580274169342</created>
@@ -122,42 +151,46 @@
       <screen x="62" y="0" width="1304" height="768" />
     </state>
     <state x="372" y="25" width="697" height="718" key="#DevopsbuddyApplication/62.0.1304.768@62.0.1304.768" timestamp="1580800768891" />
+    <state x="311" y="52" key="#DevopsbuddyApplicationTests" timestamp="1581256182133">
+      <screen x="62" y="0" width="1304" height="768" />
+    </state>
+    <state x="311" y="52" key="#DevopsbuddyApplicationTests/62.0.1304.768@62.0.1304.768" timestamp="1581256182133" />
     <state x="299" y="0" key="CommitChangelistDialog2" timestamp="1580274404669">
       <screen x="62" y="0" width="1304" height="768" />
     </state>
     <state x="299" y="0" key="CommitChangelistDialog2/62.0.1304.768@62.0.1304.768" timestamp="1580274404669" />
-    <state width="1261" height="321" key="GridCell.Tab.0.bottom" timestamp="1580800976793">
+    <state width="1261" height="290" key="GridCell.Tab.0.bottom" timestamp="1581256198368">
       <screen x="62" y="0" width="1304" height="768" />
     </state>
-    <state width="1261" height="321" key="GridCell.Tab.0.bottom/62.0.1304.768@62.0.1304.768" timestamp="1580800976793" />
-    <state width="1261" height="321" key="GridCell.Tab.0.center" timestamp="1580800976793">
+    <state width="1261" height="290" key="GridCell.Tab.0.bottom/62.0.1304.768@62.0.1304.768" timestamp="1581256198368" />
+    <state width="1261" height="290" key="GridCell.Tab.0.center" timestamp="1581256198368">
       <screen x="62" y="0" width="1304" height="768" />
     </state>
-    <state width="1261" height="321" key="GridCell.Tab.0.center/62.0.1304.768@62.0.1304.768" timestamp="1580800976793" />
-    <state width="1261" height="321" key="GridCell.Tab.0.left" timestamp="1580800976793">
+    <state width="1261" height="290" key="GridCell.Tab.0.center/62.0.1304.768@62.0.1304.768" timestamp="1581256198368" />
+    <state width="1261" height="290" key="GridCell.Tab.0.left" timestamp="1581256198352">
       <screen x="62" y="0" width="1304" height="768" />
     </state>
-    <state width="1261" height="321" key="GridCell.Tab.0.left/62.0.1304.768@62.0.1304.768" timestamp="1580800976793" />
-    <state width="1261" height="321" key="GridCell.Tab.0.right" timestamp="1580800976793">
+    <state width="1261" height="290" key="GridCell.Tab.0.left/62.0.1304.768@62.0.1304.768" timestamp="1581256198352" />
+    <state width="1261" height="290" key="GridCell.Tab.0.right" timestamp="1581256198368">
       <screen x="62" y="0" width="1304" height="768" />
     </state>
-    <state width="1261" height="321" key="GridCell.Tab.0.right/62.0.1304.768@62.0.1304.768" timestamp="1580800976793" />
-    <state width="1261" height="321" key="GridCell.Tab.1.bottom" timestamp="1580800976793">
+    <state width="1261" height="290" key="GridCell.Tab.0.right/62.0.1304.768@62.0.1304.768" timestamp="1581256198368" />
+    <state width="1261" height="290" key="GridCell.Tab.1.bottom" timestamp="1581256198368">
       <screen x="62" y="0" width="1304" height="768" />
     </state>
-    <state width="1261" height="321" key="GridCell.Tab.1.bottom/62.0.1304.768@62.0.1304.768" timestamp="1580800976793" />
-    <state width="1261" height="321" key="GridCell.Tab.1.center" timestamp="1580800976793">
+    <state width="1261" height="290" key="GridCell.Tab.1.bottom/62.0.1304.768@62.0.1304.768" timestamp="1581256198368" />
+    <state width="1261" height="290" key="GridCell.Tab.1.center" timestamp="1581256198368">
       <screen x="62" y="0" width="1304" height="768" />
     </state>
-    <state width="1261" height="321" key="GridCell.Tab.1.center/62.0.1304.768@62.0.1304.768" timestamp="1580800976793" />
-    <state width="1261" height="321" key="GridCell.Tab.1.left" timestamp="1580800976793">
+    <state width="1261" height="290" key="GridCell.Tab.1.center/62.0.1304.768@62.0.1304.768" timestamp="1581256198368" />
+    <state width="1261" height="290" key="GridCell.Tab.1.left" timestamp="1581256198368">
       <screen x="62" y="0" width="1304" height="768" />
     </state>
-    <state width="1261" height="321" key="GridCell.Tab.1.left/62.0.1304.768@62.0.1304.768" timestamp="1580800976793" />
-    <state width="1261" height="321" key="GridCell.Tab.1.right" timestamp="1580800976793">
+    <state width="1261" height="290" key="GridCell.Tab.1.left/62.0.1304.768@62.0.1304.768" timestamp="1581256198368" />
+    <state width="1261" height="290" key="GridCell.Tab.1.right" timestamp="1581256198368">
       <screen x="62" y="0" width="1304" height="768" />
     </state>
-    <state width="1261" height="321" key="GridCell.Tab.1.right/62.0.1304.768@62.0.1304.768" timestamp="1580800976793" />
+    <state width="1261" height="290" key="GridCell.Tab.1.right/62.0.1304.768@62.0.1304.768" timestamp="1581256198368" />
     <state x="184" y="65" key="MergeDialog" timestamp="1580884663596">
       <screen x="62" y="0" width="1304" height="768" />
     </state>
@@ -174,10 +207,10 @@
       <screen x="62" y="0" width="1304" height="768" />
     </state>
     <state x="306" y="118" key="Vcs.Push.Dialog.v2/62.0.1304.768@62.0.1304.768" timestamp="1580274421622" />
-    <state x="415" y="209" key="com.intellij.ide.util.TipDialog" timestamp="1580928115274">
+    <state x="415" y="209" key="com.intellij.ide.util.TipDialog" timestamp="1581252768689">
       <screen x="62" y="0" width="1304" height="768" />
     </state>
-    <state x="415" y="209" key="com.intellij.ide.util.TipDialog/62.0.1304.768@62.0.1304.768" timestamp="1580928115274" />
+    <state x="415" y="209" key="com.intellij.ide.util.TipDialog/62.0.1304.768@62.0.1304.768" timestamp="1581252768689" />
     <state x="457" y="98" key="git4idea.branch.GitSmartOperationDialog" timestamp="1580884579981">
       <screen x="62" y="0" width="1304" height="768" />
     </state>
