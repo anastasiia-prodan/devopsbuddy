@@ -2,8 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8571c035-bb36-4b32-aafe-407b4d724b41" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/devopsbuddy/DevopsbuddyApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/devopsbuddy/DevopsbuddyApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/devopsbuddy/backend/persistence/domain/backend/UserRole.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/devopsbuddy/backend/persistence/domain/backend/UserRole.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/devopsbuddy/config/DevelopmentConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/devopsbuddy/config/DevelopmentConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/devopsbuddy/config/SecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/devopsbuddy/config/SecurityConfig.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -13,8 +16,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
         <option value="HTML File" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -124,6 +127,7 @@
       <workItem from="1581566772678" duration="831000" />
       <workItem from="1581702035028" duration="2330000" />
       <workItem from="1581867396777" duration="5891000" />
+      <workItem from="1581911639287" duration="2868000" />
     </task>
     <task id="LOCAL-00001" summary="Added files to .">
       <created>1580274169342</created>
@@ -183,38 +187,38 @@
       <screen x="62" y="0" width="1304" height="768" />
     </state>
     <state x="299" y="0" key="CommitChangelistDialog2/62.0.1304.768@62.0.1304.768" timestamp="1580274404669" />
-    <state width="1261" height="2" key="GridCell.Tab.0.bottom" timestamp="1581874026497">
+    <state width="1261" height="345" key="GridCell.Tab.0.bottom" timestamp="1581874621222">
       <screen x="62" y="0" width="1304" height="768" />
     </state>
-    <state width="1261" height="2" key="GridCell.Tab.0.bottom/62.0.1304.768@62.0.1304.768" timestamp="1581874026497" />
-    <state width="1261" height="2" key="GridCell.Tab.0.center" timestamp="1581874026497">
+    <state width="1261" height="345" key="GridCell.Tab.0.bottom/62.0.1304.768@62.0.1304.768" timestamp="1581874621222" />
+    <state width="1261" height="345" key="GridCell.Tab.0.center" timestamp="1581874621222">
       <screen x="62" y="0" width="1304" height="768" />
     </state>
-    <state width="1261" height="2" key="GridCell.Tab.0.center/62.0.1304.768@62.0.1304.768" timestamp="1581874026497" />
-    <state width="1261" height="2" key="GridCell.Tab.0.left" timestamp="1581874026497">
+    <state width="1261" height="345" key="GridCell.Tab.0.center/62.0.1304.768@62.0.1304.768" timestamp="1581874621222" />
+    <state width="1261" height="345" key="GridCell.Tab.0.left" timestamp="1581874621222">
       <screen x="62" y="0" width="1304" height="768" />
     </state>
-    <state width="1261" height="2" key="GridCell.Tab.0.left/62.0.1304.768@62.0.1304.768" timestamp="1581874026497" />
-    <state width="1261" height="2" key="GridCell.Tab.0.right" timestamp="1581874026497">
+    <state width="1261" height="345" key="GridCell.Tab.0.left/62.0.1304.768@62.0.1304.768" timestamp="1581874621222" />
+    <state width="1261" height="345" key="GridCell.Tab.0.right" timestamp="1581874621222">
       <screen x="62" y="0" width="1304" height="768" />
     </state>
-    <state width="1261" height="2" key="GridCell.Tab.0.right/62.0.1304.768@62.0.1304.768" timestamp="1581874026497" />
-    <state width="1261" height="2" key="GridCell.Tab.1.bottom" timestamp="1581874026497">
+    <state width="1261" height="345" key="GridCell.Tab.0.right/62.0.1304.768@62.0.1304.768" timestamp="1581874621222" />
+    <state width="1261" height="345" key="GridCell.Tab.1.bottom" timestamp="1581874621222">
       <screen x="62" y="0" width="1304" height="768" />
     </state>
-    <state width="1261" height="2" key="GridCell.Tab.1.bottom/62.0.1304.768@62.0.1304.768" timestamp="1581874026497" />
-    <state width="1261" height="2" key="GridCell.Tab.1.center" timestamp="1581874026497">
+    <state width="1261" height="345" key="GridCell.Tab.1.bottom/62.0.1304.768@62.0.1304.768" timestamp="1581874621222" />
+    <state width="1261" height="345" key="GridCell.Tab.1.center" timestamp="1581874621222">
       <screen x="62" y="0" width="1304" height="768" />
     </state>
-    <state width="1261" height="2" key="GridCell.Tab.1.center/62.0.1304.768@62.0.1304.768" timestamp="1581874026497" />
-    <state width="1261" height="2" key="GridCell.Tab.1.left" timestamp="1581874026497">
+    <state width="1261" height="345" key="GridCell.Tab.1.center/62.0.1304.768@62.0.1304.768" timestamp="1581874621222" />
+    <state width="1261" height="345" key="GridCell.Tab.1.left" timestamp="1581874621222">
       <screen x="62" y="0" width="1304" height="768" />
     </state>
-    <state width="1261" height="2" key="GridCell.Tab.1.left/62.0.1304.768@62.0.1304.768" timestamp="1581874026497" />
-    <state width="1261" height="2" key="GridCell.Tab.1.right" timestamp="1581874026497">
+    <state width="1261" height="345" key="GridCell.Tab.1.left/62.0.1304.768@62.0.1304.768" timestamp="1581874621222" />
+    <state width="1261" height="345" key="GridCell.Tab.1.right" timestamp="1581874621222">
       <screen x="62" y="0" width="1304" height="768" />
     </state>
-    <state width="1261" height="2" key="GridCell.Tab.1.right/62.0.1304.768@62.0.1304.768" timestamp="1581874026497" />
+    <state width="1261" height="345" key="GridCell.Tab.1.right/62.0.1304.768@62.0.1304.768" timestamp="1581874621222" />
     <state x="184" y="65" key="MergeDialog" timestamp="1580884663596">
       <screen x="62" y="0" width="1304" height="768" />
     </state>
@@ -231,10 +235,10 @@
       <screen x="62" y="0" width="1304" height="768" />
     </state>
     <state x="306" y="118" key="Vcs.Push.Dialog.v2/62.0.1304.768@62.0.1304.768" timestamp="1580274421622" />
-    <state x="415" y="209" key="com.intellij.ide.util.TipDialog" timestamp="1581867419345">
+    <state x="415" y="209" key="com.intellij.ide.util.TipDialog" timestamp="1581911630653">
       <screen x="62" y="0" width="1304" height="768" />
     </state>
-    <state x="415" y="209" key="com.intellij.ide.util.TipDialog/62.0.1304.768@62.0.1304.768" timestamp="1581867419345" />
+    <state x="415" y="209" key="com.intellij.ide.util.TipDialog/62.0.1304.768@62.0.1304.768" timestamp="1581911630653" />
     <state x="457" y="98" key="git4idea.branch.GitSmartOperationDialog" timestamp="1580884579981">
       <screen x="62" y="0" width="1304" height="768" />
     </state>
@@ -243,9 +247,9 @@
       <screen x="62" y="0" width="1304" height="768" />
     </state>
     <state x="394" y="175" key="run.anything.popup/62.0.1304.768@62.0.1304.768" timestamp="1581332867830" />
-    <state x="395" y="89" width="672" height="678" key="search.everywhere.popup" timestamp="1581396993947">
+    <state x="395" y="89" width="672" height="678" key="search.everywhere.popup" timestamp="1581912769002">
       <screen x="62" y="0" width="1304" height="768" />
     </state>
-    <state x="395" y="89" width="672" height="678" key="search.everywhere.popup/62.0.1304.768@62.0.1304.768" timestamp="1581396993947" />
+    <state x="395" y="89" width="672" height="678" key="search.everywhere.popup/62.0.1304.768@62.0.1304.768" timestamp="1581912769002" />
   </component>
 </project>
